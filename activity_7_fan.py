@@ -32,3 +32,6 @@ class Fan:
 
     def set_color(self, color):
         self.__color = color
+
+     def __str__(self):
+        return f"Speed: {self.__speed}, Radius: {self.__radius}, Color: {self.__color}, On: {self.__on}"
