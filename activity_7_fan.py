@@ -12,26 +12,27 @@ class Fan:
     def get_speed(self):
         return self.__speed
 
-    def set_speed(self, speed):
-        self.__speed = speed
-
-    def is_on(self):
-        return self.__on
-
-    def set_on(self, on):
-        self.__on = on
-
     def get_radius(self):
         return self.__radius
-
-    def set_radius(self, radius):
-        self.__radius = radius
 
     def get_color(self):
         return self.__color
 
+    def is_on(self):
+        return self.__on
+
+    def set_speed(self, speed):
+        self.__speed = speed
+
+    def set_radius(self, radius):
+        self.__radius = radius
+
     def set_color(self, color):
         self.__color = color
 
-     def __str__(self):
-        return f"Speed: {self.__speed}, Radius: {self.__radius}, Color: {self.__color}, On: {self.__on}"
+    def set_on(self, on):
+        self.__on = on
+
+    def __str__(self):
+        return (f"Speed: {self.__speed}, Radius: {self.__radius}, "
+                f"Color: {self.__color}, On: {self.__on}")
