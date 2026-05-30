@@ -15,3 +15,9 @@ def main():
 
     print("--- Fan 1 ---")
     print(fan1)
+
+    print("\n--- Fan 2 ---")
+    print(fan2)
+
+if __name__ == "__main__":
+    main()
