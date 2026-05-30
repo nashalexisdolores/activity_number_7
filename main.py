@@ -12,3 +12,6 @@ def main():
     fan2.set_radius(5)
     fan2.set_color("blue")
     fan2.set_on(False)
+
+    print("--- Fan 1 ---")
+    print(fan1)
