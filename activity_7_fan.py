@@ -27,7 +27,7 @@ class fan_class:
 
     def set_color(self, color):
         self.__color = color
-r
+
     def is_on(self):
         return self.__on
 
